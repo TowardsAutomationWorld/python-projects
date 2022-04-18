@@ -1,0 +1,89 @@
+{
+  "name": "Login Feature Validation -- @1.1 ",
+  "status": "broken",
+  "statusDetails": {
+    "message": "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5\nNoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:395:5\nelement.find/</<@chrome://remote/content/marionette/element.js:300:16\n\n",
+    "trace": "  File \"d:\\pythonpracticeworkspace\\bddcucumber\\venv\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"d:\\pythonpracticeworkspace\\bddcucumber\\venv\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\LoginSteps.py\", line 42, in userNameEnteredInUI\n    loginPage.enterUsername(userName)\n  File \"D:\\PythonPracticeWorkspace\\BDDCucumber\\pages\\LoginPage.py\", line 25, in enterUsername\n    BasePage.inputSendKeys(self,self.userNameEle, user)\n  File \"D:\\PythonPracticeWorkspace\\BDDCucumber\\pages\\BasePage.py\", line 27, in inputSendKeys\n    WebDriverWait(self.driver, 10).until(exConditions.visibility_of_element_located(by_locator)).send_keys(text)\n  File \"d:\\pythonpracticeworkspace\\bddcucumber\\venv\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py\", line 89, in until\n    raise TimeoutException(message, screen, stacktrace)\n"
+  },
+  "steps": [
+    {
+      "name": "Given user launches the demo application",
+      "status": "passed",
+      "start": 1650228701351,
+      "stop": 1650228701351
+    },
+    {
+      "name": "When user should land on the login page",
+      "status": "passed",
+      "start": 1650228701352,
+      "stop": 1650228701352
+    },
+    {
+      "name": "Then user enter username as \"standard_user\" in the user name field",
+      "status": "broken",
+      "statusDetails": {
+        "message": "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5\nNoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:395:5\nelement.find/</<@chrome://remote/content/marionette/element.js:300:16\n\n",
+        "trace": "  File \"d:\\pythonpracticeworkspace\\bddcucumber\\venv\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"d:\\pythonpracticeworkspace\\bddcucumber\\venv\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\LoginSteps.py\", line 42, in userNameEnteredInUI\n    loginPage.enterUsername(userName)\n  File \"D:\\PythonPracticeWorkspace\\BDDCucumber\\pages\\LoginPage.py\", line 25, in enterUsername\n    BasePage.inputSendKeys(self,self.userNameEle, user)\n  File \"D:\\PythonPracticeWorkspace\\BDDCucumber\\pages\\BasePage.py\", line 27, in inputSendKeys\n    WebDriverWait(self.driver, 10).until(exConditions.visibility_of_element_located(by_locator)).send_keys(text)\n  File \"d:\\pythonpracticeworkspace\\bddcucumber\\venv\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py\", line 89, in until\n    raise TimeoutException(message, screen, stacktrace)\n"
+      },
+      "start": 1650228701352,
+      "stop": 1650228711627
+    },
+    {
+      "name": "And user enter password as \"secret_sauce\" in the password field",
+      "status": "skipped",
+      "start": 1650228711627,
+      "stop": 1650228711627
+    },
+    {
+      "name": "And user click on login button on the bottom of the section",
+      "status": "skipped",
+      "start": 1650228711627,
+      "stop": 1650228711627
+    },
+    {
+      "name": "Then user should land on home page",
+      "status": "skipped",
+      "start": 1650228711627,
+      "stop": 1650228711627
+    },
+    {
+      "name": "And user close the application",
+      "status": "skipped",
+      "start": 1650228711627,
+      "stop": 1650228711627
+    }
+  ],
+  "parameters": [
+    {
+      "name": "userName",
+      "value": "standard_user"
+    },
+    {
+      "name": "password",
+      "value": "secret_sauce"
+    }
+  ],
+  "start": 1650228701349,
+  "stop": 1650228711627,
+  "uuid": "79287c3a-d9c8-4964-aa2c-1078497c175c",
+  "historyId": "452b2269b2a441a176492bf7cb2b0baf",
+  "fullName": "Saucelabs Demo Login Validation: Login Feature Validation",
+  "labels": [
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "feature",
+      "value": "Saucelabs Demo Login Validation"
+    },
+    {
+      "name": "framework",
+      "value": "behave"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    }
+  ]
+}

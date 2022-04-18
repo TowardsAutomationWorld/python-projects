@@ -1,0 +1,62 @@
+{
+  "appURL": "https://www.saucedemo.com/",
+  "implicitWait": "30",
+  "explicitWait": "20",
+  "pageLoadTime": "20",
+  "closeBrowserAfterExecution": true,
+  "generateReport": true,
+  "reportPath": "./res/reports/",
+  "loggerPath": ".res/logs/",
+  "runMode": "Local",
+  "browserName": "Chrome",
+  "local_config": {
+    "browserName": "Chrome",
+    "browserVersion": "98",
+    "headLessMode": true
+  },
+  "jenkins_config": {
+    "browserName": "Chrome",
+    "browserVersion": "100",
+    "headLessMode": true
+  },
+  "saucelabs_config": {
+    "browserName": "Chrome",
+    "browserVersion": "98",
+    "platformName": "Windows 10",
+    "acceptInsecureCerts": true,
+    "saucelabs_userName": " ",
+    "saucelabs_key": "",
+    "lambatest_remote_url": ""
+  },
+  "browserstack_config": {
+    "platformName": "Windows",
+    "platformName_version": "10",
+    "browserName": "Chrome",
+    "browser_version": "98.0",
+    "browserstack_local": "false",
+    "browserstack_selenium_version": "3.14.0",
+    "browserstack_userName": " ",
+    "browserstack_key": "",
+    "lambatest_remote_url": ""
+  },
+  "lambdatest_config": {
+    "platformName": "Windows",
+    "platformName_version": "10",
+    "browserName": "Chrome",
+    "browser_version": "98.0",
+    "build": "Automation Practice : 001",
+    "name": "Automation Practice",
+    "network": true,
+    "visual": true,
+    "video": true,
+    "console": true,
+    "lambatest_userName": " ",
+    "lambatest_key": "",
+    "lambatest_remote_url": ""
+  },
+  "docker_config": {
+    "browserName": "Chrome",
+    "browserVersion": "98",
+    "headLessMode": true
+  }
+}

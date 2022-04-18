@@ -1,0 +1,81 @@
+{
+  "name": "Login Feature Validation -- @1.1 ",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Given user launches the demo application",
+      "status": "passed",
+      "start": 1650228348309,
+      "stop": 1650228348309
+    },
+    {
+      "name": "When user should land on the login page",
+      "status": "passed",
+      "start": 1650228348309,
+      "stop": 1650228348310
+    },
+    {
+      "name": "Then user enter username as \"standard_user\" in the user name field",
+      "status": "passed",
+      "start": 1650228348310,
+      "stop": 1650228348438
+    },
+    {
+      "name": "And user enter password as \"secret_sauce\" in the password field",
+      "status": "passed",
+      "start": 1650228348439,
+      "stop": 1650228348549
+    },
+    {
+      "name": "And user click on login button on the bottom of the section",
+      "status": "passed",
+      "start": 1650228348550,
+      "stop": 1650228348638
+    },
+    {
+      "name": "Then user should land on home page",
+      "status": "passed",
+      "start": 1650228348638,
+      "stop": 1650228348682
+    },
+    {
+      "name": "And user close the application",
+      "status": "passed",
+      "start": 1650228348682,
+      "stop": 1650228348834
+    }
+  ],
+  "parameters": [
+    {
+      "name": "userName",
+      "value": "standard_user"
+    },
+    {
+      "name": "password",
+      "value": "secret_sauce"
+    }
+  ],
+  "start": 1650228348307,
+  "stop": 1650228348834,
+  "uuid": "86aae379-32f9-46f2-801b-02b099d00c7c",
+  "historyId": "452b2269b2a441a176492bf7cb2b0baf",
+  "fullName": "Saucelabs Demo Login Validation: Login Feature Validation",
+  "labels": [
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "feature",
+      "value": "Saucelabs Demo Login Validation"
+    },
+    {
+      "name": "framework",
+      "value": "behave"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    }
+  ]
+}
